@@ -12,6 +12,12 @@ int findfirstfactorpower(int n);
 
 struct list_node* primefact(int n);
 
+struct list_node* reduce_sqrt(int x); 
+
+struct list_node* reduce(int n, int m);
+
+struct list_node* solve(int a, int b, int c);
+
 int phi(int n); 
 
 #endif // FACTORS_H_INCLUDED
